@@ -1,0 +1,93 @@
+/* ตกแต่งพื้นหลังและฟอนต์ของเว็บไซต์ */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #9c27b0, #6200ea); /* ไล่เฉดสีเขียว */
+    color: #333;
+}
+
+/* ตกแต่งส่วนหัว */
+header {
+    background-color: #6200ea; /* สีเขียว */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* ตกแต่งหัวข้อหลัก */
+.main-title {
+    font-size: 2.8em;
+    margin: 0;
+    color: #00ff2f00; /* สีข้อความ */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* เงา */
+}
+
+/* เมนูนำทาง */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    background-color: #1f6c3c99; /* สีปุ่มเมนู */
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+nav a:hover {
+    background-color: #0e6746; /* สีเมื่อวางเมาส์ */
+    color: #06781f;
+    transform: scale(1.1); /* ขยายขนาดเล็กน้อยเมื่อวางเมาส์ */
+}
+
+/* ตกแต่งเนื้อหา */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.content-section {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 900px;
+}
+
+/* หัวข้อย่อย */
+.section-title {
+    color: #4caf50; /* สีเขียว */
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+section p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555555; /* สีเทาอ่อน */
+}
+
+/* ตกแต่งส่วนท้าย */
+footer {
+    background-color: #00924b; /* สีเขียวเข้ม */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+    margin-top: 20px;
+}
